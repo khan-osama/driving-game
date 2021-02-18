@@ -13,6 +13,26 @@
   height: 256px;
 }
 
-#f1-car-model {
+.f1-car-model,
+.f1-car-model-left,
+.f1-car-model-right,
+.f1-car-model-up,
+.f1-car-model-down {
   width: 100%;
+}
+
+.f1-car-model-left {
+  transform: rotate(0.5turn);
+}
+
+.f1-car-model-right {
+  transform: rotate(0turn);
+}
+
+.f1-car-model-up {
+  transform: rotate(0.75turn);
+}
+
+.f1-car-model-down {
+  transform: rotate(0.25turn);
 }
