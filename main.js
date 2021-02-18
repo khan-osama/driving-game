@@ -1,6 +1,6 @@
 var $f1Car = document.querySelector('.f1-car-model');
 
-document.onkeydown = keyPress;
+document.addEventListener('keydown', keyPress);
 
 function keyPress(press) {
 
