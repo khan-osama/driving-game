@@ -4,8 +4,6 @@ document.onkeydown = keyPress;
 
 function keyPress(press) {
 
-  press = press || window.event;
-
   if (press.keyCode === 38) { // up
     $f1Car.className = 'f1-car-model-up';
   } else if (press.keyCode === 40) { // down
