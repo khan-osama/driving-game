@@ -19,20 +19,21 @@
 .f1-car-model-up,
 .f1-car-model-down {
   width: 100%;
+  transition: 200ms linear all;
 }
 
 .f1-car-model-left {
-  transform: rotate(0.5turn);
+  transform: rotate(180deg);
 }
 
 .f1-car-model-right {
-  transform: rotate(0turn);
+  transform: rotate(0deg);
 }
 
 .f1-car-model-up {
-  transform: rotate(0.75turn);
+  transform: rotate(270deg);
 }
 
 .f1-car-model-down {
-  transform: rotate(0.25turn);
+  transform: rotate(90deg);
 }
