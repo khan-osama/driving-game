@@ -7,3 +7,12 @@
 .background {
   background-color: rgb(2, 148, 2);
 }
+
+.container {
+  width: 256px;
+  height: 256px;
+}
+
+#f1-car-model {
+  width: 100%;
+}
