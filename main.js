@@ -1,6 +1,7 @@
 var $f1Car = document.querySelector('.f1-car-model');
 
 document.addEventListener('keydown', keyPress);
+document.addEventListener('keydown', spaceBarPress);
 
 function keyPress(press) {
 
@@ -12,5 +13,12 @@ function keyPress(press) {
     $f1Car.className = 'f1-car-model-left';
   } else if (press.keyCode === 39) { // right
     $f1Car.className = 'f1-car-model-right';
+  }
+}
+
+function spaceBarPress(press) {
+
+  if (press.keyCode === 32) {
+    console.log('spacebar is pressed');
   }
 }
