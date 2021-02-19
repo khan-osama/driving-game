@@ -21,4 +21,9 @@ function spaceBarPress(press) {
   if (press.keyCode === 32) {
     console.log('spacebar is pressed');
   }
+  var carStart = setInterval(spaceBarPress, 16);
+}
+
+function stopCar() {
+  clearInterval(carStart);
 }
